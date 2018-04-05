@@ -1,4 +1,4 @@
- mkdir "projet ro"
+  mkdir "projet ro"
 cd "projet ro"
 mkdir "LISCENCE"
 if [$test"language "="c"]and [$test "LISCENCE"="GPL"];then  (cp  -r initdev_c/source/liscences/GPL  initdev_c/projet ro/LISCENCE )

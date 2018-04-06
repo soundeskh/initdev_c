@@ -60,3 +60,13 @@ echo $0
 else echo "uknown arguments,please check the help :initdev_c -help "
 echo $1 
 fi
+/creation de help/
+mkdir help
+if ("HELP"="help") then
+echo "initdev_c : a developper tool that save time by setting up dev directory "
+echo"use : initdev_c <dev_source_name>"
+echo "args c: c project"
+echo "args ccp :cpp project"
+echo "args py :python project"
+echo "args latex:latex project"
+echo "args BEAMER: BEAMER project"
